@@ -27,6 +27,14 @@
 23. git remote -v
 24. git push -u origin main
 25. untuk melihat perubahan line git diff calculate_sub.py
+--- untuk push ke remote repository
+26. git stash
+27. git checkout -b feat/parameter_sub
+28. git stash pop --> balikin saved index ke working directory
+26. git add .
+27. git status
+28. git commit -m "Adding parameter c and readme"
+29. git push origin feat/parameter_sub
 
 ![Alt text](image.png)
 
